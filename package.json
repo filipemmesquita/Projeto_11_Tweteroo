@@ -1,0 +1,29 @@
+{
+  "name": "back",
+  "version": "1.0.0",
+  "description": "simple back-end API for a twitter clone",
+  "main": "index.js",
+  "type":"module",
+  "scripts": {
+    "test": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/filipemmesquita/tweteroo.git"
+  },
+  "keywords": [
+    "tweteroo",
+    "backend"
+  ],
+  "author": "Filipe Mesquita",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/filipemmesquita/tweteroo/issues"
+  },
+  "homepage": "https://github.com/filipemmesquita/tweteroo#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "nodemon": "^2.0.16"
+  }
+}
